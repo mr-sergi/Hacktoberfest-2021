@@ -8,7 +8,7 @@ public class Main {
         System.out.print(alphabet + " ");
         System.out.print(avh);
       }
-      ++alphabet;
+     
 
       System.out.println();
     }
