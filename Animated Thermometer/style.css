@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+.outerDiv {
+    /* width: 100vw; */
+    /* height: 49vw;   */
+    background-color: #2a364f;
+    display: grid;
+    place-items: center;
+}
+.innerDiv{
+    width: 80vw;
+    height: 49vw;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+    padding: 30px;
+    color:rgb(17, 240, 29);
+    text-shadow: 0 1px 8px rgb(216, 223, 226);
+    font-size: 200px;
+} 
