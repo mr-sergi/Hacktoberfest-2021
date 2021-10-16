@@ -1,8 +1,6 @@
 #include<iostream>
-
-int main()
-{
-  int k;
-  k=08;
-  std::cout<<k;
+int main(){
+  int n;
+  n=10;
+  cout<<n;
 }

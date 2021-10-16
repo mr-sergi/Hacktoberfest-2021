@@ -1,24 +1,23 @@
-public class SwapNumbers {
 
-    public static void main(String[] args) {
+import javsa.util.*;
+public class Main {
 
-        float first = 1.20f, second = 2.45f;
-
-        System.out.println("--Before swap--");
-        System.out.println("First number = " + first);
-        System.out.println("Second number = " + second);
-
-        // Value of first is assigned to temporary
-        float temporary = first;
-
-        // Value of second is assigned to first
-        first = second;
-
-        // Value of temporary (which contains the initial value of first) is assigned to second
-        second = temporary;
-
-        System.out.println("--After swap--");
-        System.out.println("First number = " + first);
-        System.out.println("Second number = " + second);
+  public static void main(String[] args) {
+   Scanner kb =new Scanner(System.in);
+    int  number = 1;
+    int a[] = new int[5];
+    for(int i=0;i<5;i++){
+      a[i]=kb.nextInt();
     }
+
+    for(int i = 1; i <=5; i++) {
+
+      for(int j = 1; j <= i; j++) {
+        System.out.print(number + " " +a[i]);
+        ++number;
+      }
+
+      System.out.println();
+    }
+  }
 }
