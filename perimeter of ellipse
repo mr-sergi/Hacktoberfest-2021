@@ -1,0 +1,19 @@
+// This is a C program which uses a function to find the perimeter of ellipse.  
+#include <stdio.h>  
+float find_Perimeter_of_ellipse(float a, float b) // It is a C function to find perimeter   
+{   
+float Perimeter_of_ellipse;  
+Perimeter_of_ellipse= 2 * 3.14 * sqrt( ( (a* a) + (b * b) ) / 2 ); // It is a formula for calculating a perimeter of ellipse   
+return (Perimeter_of_ellipse);   
+}   
+float main()   
+{   
+float a;   
+float b;  
+printf("Enter the semi-major axis of the ellipse:");   
+scanf("%f",&a);  
+printf("Enter the semi-minor axis of the ellipse:");   
+scanf("%f",&b);  
+printf("Perimeter of the ellipse is: %f", find_Perimeter_of_ellipse(a, b));     
+return 0;   
+}   
