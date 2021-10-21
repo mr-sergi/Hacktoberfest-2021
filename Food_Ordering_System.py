@@ -323,7 +323,7 @@ def def_payment():
             report_new += "\n" + " " * 17 + "-" * 35 + "\n" + " " * 17 + "TOTAL PRICES:       $ " + str(round(total_price, 2)) + "\n" + " " * 17 + "*" * 35
             print(" " * 17 + "_" * 35 + "\n" + " " * 17 + "TOTAL PRICES:       $ " + str(round(total_price, 2)))
 
-        print("\n (P) PAY           (M) MAIN MENU           (R) REPORT          (E) EXIT\n" + "_" * 72)
+        print("\n (P) PAY           (M) MAIN_MENU           (R) REPORT          (E) EXIT\n" + "_" * 72)
         input_1 = str(input("Please Select Your Operation: ")).upper()
         if (input_1 == 'P'):
             print("\n" * 10)
