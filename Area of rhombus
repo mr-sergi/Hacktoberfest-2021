@@ -1,0 +1,18 @@
+// This a C program which uses a function to find the area of a rhombus.  
+#include <stdio.h> // Function to find area   
+float findAreaofrhombus(float d1, float d2)   
+{   
+float Area_of_rhombus;  
+Area_of_rhombus= ( d1 * d2 ) / 2; // It is a formula for calculating a area of rhombus   
+return (Area_of_rhombus);   
+}   
+int main()   
+{   
+float d1, d2;   
+printf("Enter the 1st diagonal of the rhombus:");   
+scanf("%f",&d1);  
+printf("Enter the 2nd diagonal of the rhombus:");  
+scanf("%f",&d2);  
+printf("Area of the rhombus is: %.2f", findAreaofrhombus(d1, d2));     
+return 0;   
+}  
